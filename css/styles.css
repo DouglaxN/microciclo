@@ -7,7 +7,7 @@
     --bs-red: #dc3545;
     --bs-orange: #fd7e14;
     --bs-yellow: #ffc107;
-    --bs-green: #198754;
+    --bs-green: #248F7A;
     --bs-teal: #20c997;
     --bs-cyan: #0dcaf0;
     --bs-white: #fff;
@@ -42,7 +42,7 @@
     --bs-black-rgb: 0, 0, 0;
     --bs-body-color-rgb: 33, 37, 41;
     --bs-body-bg-rgb: 255, 255, 255;
-    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-sans-serif: system-ui, -apple-system, "Montserrat", sans-serif, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
@@ -4233,8 +4233,9 @@ fieldset:disabled .btn {
 
 .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     color: #0d6efd;
+    font-size: 1.1rem;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4341,6 +4342,10 @@ fieldset:disabled .btn {
     padding-bottom: 0.5rem;
 }
 
+.img-logo-navbar {
+    width: 10rem;
+}
+
 .navbar>.container,
 .navbar>.container-fluid,
 .navbar>.container-sm,
@@ -4356,7 +4361,6 @@ fieldset:disabled .btn {
 
 .navbar-brand {
     padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
     text-decoration: none;
@@ -8387,6 +8391,11 @@ fieldset:disabled .btn {
     --bs-text-opacity: 1;
 }
 
+.bg-green {
+    --bs-bg-opacity: 1;
+    background-color: #248F7A !important;
+}
+
 .bg-primary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -8424,7 +8433,12 @@ fieldset:disabled .btn {
 
 .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    background-color: #000 !important;
+}
+
+.bg-color-logo-main {
+    --bs-bg-opacity: 1;
+    background-color: #248F7A !important;
 }
 
 .bg-black {
@@ -11109,4 +11123,34 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 15rem;
+}
+
+.container-text {
+    position: relative;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.container-text img {
+    position: relative;
+    align-items: center;
+    margin-left: 0.1rem;
+}
+
+.container-text p {
+    text-align: justify;
+}
+
+.container-main {
+    margin-bottom: 10rem;
+}
+
+.img-header {
+    position: relative;
+    background: no-repeat;
+}
+
+.container-servicos {
+    margin-top: -3rem;
+    margin-bottom: -3rem;
 }

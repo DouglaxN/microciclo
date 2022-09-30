@@ -59,6 +59,7 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 @media (prefers-reduced-motion: no-preference) {
      :root {
         scroll-behavior: smooth;
@@ -67,7 +68,7 @@
 
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
+    font-family: 'Montserrat', sans-serif;
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
@@ -11184,6 +11185,15 @@ html {
     width: 2rem;
 }
 
+.img-parceiros img {
+    min-width: 8rem;
+    max-width: 8rem;
+}
+
+.alinhar-top img {
+    margin-top: -1rem;
+}
+
 .img-footer {
     width: 12rem;
 }
@@ -11191,4 +11201,8 @@ html {
 .icone-footer i {
     margin-top: 1rem;
     font-size: large;
+}
+
+.container-copy {
+    position: center;
 }

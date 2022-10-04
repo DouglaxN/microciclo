@@ -11206,3 +11206,11 @@ html {
 .container-copy {
     position: center;
 }
+
+.text-just {
+    text-align: justify;
+}
+
+.img-premios {
+    max-width: 20rem;
+}

@@ -11212,25 +11212,3 @@ html {
 .text-just {
     text-align: justify;
 }
-
-.img-logo-produto {
-    width: 10rem;
-}
-
-.produto {
-    width: 50rem;
-}
-
-.container-produto {
-    position: relative;
-    display: flex;
-}
-
-.container-produto img {
-    margin-top: -3rem;
-    margin-right: -15rem;
-}
-
-.container-produto ul {
-    margin-top: 2rem;
-}

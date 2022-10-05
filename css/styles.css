@@ -4871,6 +4871,7 @@ fieldset:disabled .btn {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    height: calc(100%/1);
 }
 
 .card>hr {
@@ -11209,8 +11210,4 @@ html {
 
 .text-just {
     text-align: justify;
-}
-
-.img-premios {
-    max-width: 20rem;
 }

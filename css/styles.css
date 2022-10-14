@@ -4984,6 +4984,11 @@ fieldset:disabled .btn {
     border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
+.img-premios {
+    min-width: 10rem;
+    min-height: 5rem;
+}
+
 .card-group>.card {
     margin-bottom: 0.75rem;
 }
@@ -8396,7 +8401,7 @@ fieldset:disabled .btn {
 
 .bg-green {
     --bs-bg-opacity: 1;
-    background-color: #248F7A !important;
+    background-color: #35BAA0 !important;
 }
 
 .bg-primary {
@@ -8436,7 +8441,7 @@ fieldset:disabled .btn {
 
 .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: #000 !important;
+    background-color: #181C1B !important;
 }
 
 .bg-color-logo-main {
@@ -11143,13 +11148,8 @@ html {
     align-items: center;
 }
 
-.container-text img {
-    position: relative;
-    align-items: center;
-    margin-left: 0.1rem;
-}
-
 .container-text p {
+    padding-top: 26rem;
     text-align: justify;
 }
 
@@ -11160,7 +11160,9 @@ html {
 
 .img-header {
     position: relative;
-    background: no-repeat;
+    background: no-repeat center;
+    margin-top: -10rem;
+    background-size: 100%;
 }
 
 .container-servicos {
